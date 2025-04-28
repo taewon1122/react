@@ -2,7 +2,9 @@ import React from 'react';
 
 const SideBarElements = () => {
   return (
-        <p>SideBarElements</p>
+        <div>
+          KTW SYSTEM
+        </div>
   )
 }
 

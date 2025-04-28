@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-import Home from './screens/Home';
-import About from './screens/About';
-import Projects from './screens/Projects';
-import Questions from './screens/Questions';
-import Layout from './components/Styles/Container/Layout';
-
+/*
+  import Home from './screens/Home';
+  import About from './screens/About';
+  import Projects from './screens/Projects';
+  import Questions from './screens/Questions';
+  */
+ import Layout from './components/Layout/Layout';
 
 /*
 <BrowserRouter>
@@ -22,11 +22,10 @@ import Layout from './components/Styles/Container/Layout';
 function App() {
 
   return (
+
+    <Layout/>
     
-      <Layout />
-      
-    
-  )
+  );
 }
 
-export default App
+export default App;

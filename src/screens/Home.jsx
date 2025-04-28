@@ -1,5 +1,4 @@
 import React from 'react'
-import {ContentContainer} from '../components/Styles/Container/Layout';
 
 const Home = () => {
   return (
